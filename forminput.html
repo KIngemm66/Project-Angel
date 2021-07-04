@@ -4,15 +4,29 @@
   <body>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Be A Volunteer</title>
-  
-    
-    <header>
+    <title>Join Us</title>
+
+    <div class="container">
+      
+      <nav>
+          <div class="navbar">
+          <a href="index.html">HOME</a>
+          <a href="About.html">ABOUT US</a>
+          <a href="Blog.html">BLOG</a>
+          <a href="Contact.html">CONTACT US</a>
+          <a href="forminput.html">REGISTER</a>
+          <a href="loginform.html">LOGIN</a>
+          <a href="Donate.html">DONATE</a>
+          
+       </div>
+      </nav>
+      </div>
         
        
     <form>
-        <form action="/action_page.php">
-        <label for="fname">First name:</label>
+        <form action="/action_page.php" target="_self" method="post" autocomplete="on">
+ 
+          <label for="fname">First name:</label>
         <br>
         <input type="text" id="fname" name="fname" required >
         <br>
@@ -26,17 +40,12 @@
     <label for="phone" >Tel:</label><br>
     <input type="tel" id="phone" name="phone" >
     <br>
-    <label for="age">Age:</label><br>
-    <input type="number" id="age" name="age" required>
+   
     <br>
     <label for="password">Password: </label><br>
     <input type="password" id="password" name="password" required>
     <br>
-    <label for="date">Date:</label><br>
-    <input type="date" id="date" name="date">
-    <br>
-    <label for="appt">Time</label><br>
-    <input type="time" id="appt" name="appt">
+  
     <br>
     <label for="birthdaytime">Date Of Birth:</label>
     <br>
@@ -89,17 +98,7 @@
     <option value="Zamfara">Zamfara</option>
 </select>
 <br>
-<label for="checkbox">Languages Spoken:</label>
-<br>
-<input type="checkbox" id="english" name="english">
-  <label for="english">English</label><br>
-  <input type="checkbox" id="igbo" name="igbo">
-  <label for="igbo">Igbo</label><br>
-  <input type="checkbox" id="yoruba" name="yoruba" value="yoruba">
-  <label for="yoruba">Yoruba</label><br>
-  <input type="checkbox" id="hausa" name="hausa" value="hausa">
-  <label for="hausa">Hausa</label><br>
-  <br>
+
   <label for="nationality">Nationality:</label><br>
     <input type="text" id="nationality" name="nationality" value="Nigeria" disabled><br>
     <br>
@@ -125,7 +124,7 @@
 
     </form>
 
-  </header>  
+ 
 
     
     
