@@ -25,31 +25,22 @@
        
     <form>
         <form action="/action_page.php" target="_self" method="post" autocomplete="on">
- 
-          <label for="fname">First name:</label>
-        <br>
-        <input type="text" id="fname" name="fname" required >
-        <br>
-        <label for="lname">Last name:</label>
-        <br>
-        <input type="text" id="lname" name="lname" required >
+        <br>  
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" placeholder="Enter email" id="email">
+        </div>
         <br>
         <br>
-        <label for="username">Username:</label>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+        </div>
         <br>
-        <input type="text" id="username" name="username" required>
-        <br>
-    <label for="email" >Email: </label><br> 
-    <input type="email" id="email" name="email" required>
-    <br>
     <label for="phone" >Tel:</label><br>
     <input type="tel" id="phone" name="phone" >
     <br>
    
-    <br>
-    <label for="password">Password: </label><br>
-    <input type="password" id="password" name="password" required>
-    <br>
     <div class="form-group form-check">
       <label class="form-check-label">
         <input class="form-check-input" type="checkbox"> Remember me
