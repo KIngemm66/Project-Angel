@@ -2,7 +2,7 @@
 body{
     
     text-align: center;
-    background-image: url("images/OIP.jpeg");
+    background-image: url("images/OIP.jpeg" width=100%);
 }
 
 select {
