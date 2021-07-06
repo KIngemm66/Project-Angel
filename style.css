@@ -4,6 +4,8 @@ body{
     text-align: center;
     background-image: url("images/OIP.jpeg" );
     width: 100%;
+    background-size: cover;
+    
 }
 
 select {
