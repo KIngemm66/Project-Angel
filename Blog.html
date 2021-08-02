@@ -1,30 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BLOG</title>
-    <link rel="stylesheet" href="blog.css">
+    <!-- favicon -->
+    <link rel=icon href="assets/img/favicon.png" sizes="20x20" type="image/png">
 
-    <div class="container">
-      
-        <nav>
-            <div class="navbar">
-            <a href="index.html">HOME</a>
-            <a href="About.html">ABOUT US</a>
-            <a href="Blog.html">BLOG</a>
-            <a href="Contact.html">CONTACT US</a>
-            <a href="forminput.html">REGISTER</a>
-            <a href="loginform.html">LOGIN</a>
-            <a href="Donate.html">DONATE</a>
-            
-         </div>
-        </nav>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/vendor.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="Blog.css">
+
+    
+</head><body>
+
+    <!-- preloader area start -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+                <div class="dot3"></div>
+            </div>
         </div>
-</head>
-<body>
-   <h3>Cybercrime in Nigeria and around the world</h3>
+    </div>
+
+    <!-- search popup start-->
+    <div class="td-search-popup" id="td-search-popup">
+        <form action="index.html" class="search-form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search.....">
+            </div>
+            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <!-- search popup end-->
+    <div class="body-overlay" id="body-overlay"></div>
+
+    <!-- header start -->
+    <div class="navbar-area">
+        <!-- topbar end-->
+        <div class="topbar-area">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-7 align-self-center">
+                        
+                    </div>
+                    <div class="col-lg-6 col-md-5 mt-2 mt-md-0 text-md-right text-center">
+                        <div class="topbar-social">
+                            <div class="topbar-date d-none d-lg-inline-block"><i class="fa fa-calendar"></i> Friday, August 7</div>
+                            <ul class="social-area social-area-2">
+                                <li><a class="youtube-icon" href="https://www.youtube.com/channel/UClkB7Ae3pzUjSJqEYisLoCQ"><i class="fa fa-youtube-play"></i></a></li>
+                                <li><a class="instagram-icon" href="https://www.instagram.com/ugothemystery/"><i class="fa fa-instagram"></i></a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- topbar end-->
+
+        <!-- adbar end-->
+        <div class="adbar-area bg-black d-none d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-5 align-self-center">
+                        <div class="logo text-md-left text-center">
+                            <h1>UGoTECHY</h1>
+
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <!-- adbar end-->
+
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container nav-container">
+                <div class="responsive-mobile-menu">
+                    <div class="logo d-lg-none d-block">
+                        <a class="main-logo" href="index.html"><img src="images/Cyber street.jpeg" alt="images"></a>
+                    </div>
+                    <button class="menu toggle-btn d-block d-lg-none" data-target="#nextpage_main_menu" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-left"></span>
+                        <span class="icon-right"></span>
+                    </button>
+                </div>
+                <div class="nav-right-part nav-right-part-mobile">
+                    <a class="search header-search" href="#"><i class="fa fa-search"></i></a>
+                </div>
+                <div class="collapse navbar-collapse" id="nextpage_main_menu">
+                    <ul class="navbar-nav menu-open">
+                        <li class="current-menu-item">
+                            <a href="index.html">HOME</a>
+                        </li>                        
+                        <li class="About.html">
+                            <a href="">ABOUT</a>
+                        </li>                        
+                        <li class="current-bmenu-item">
+                            <a href="forminput.html">REGISTER</a>
+                        </li>                        
+                        <li class="current-menu-item">
+                            <a href="Donate.html">DONATE</a>
+                        </li>                        
+                        <li class="current-menu-item">
+                            <a target="_blank" href="Blog.html">BLOG</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-right-part nav-right-part-desktop">
+                    <div class="menu-search-inner">
+                        <input type="text" placeholder="Search For">
+                        <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar end -->
+
+    <!-- banner area start -->
+    <div class="banner-area banner-inner-1 bg-black" id="banner">
+        <!-- banner area start -->
+        <div class="banner-inner pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="thumb after-left-top">
+                            <img src="images/OIP.jpeg" alt="images">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 align-self-center">
+                        <div class="banner-details mt-4 mt-lg-0">
+                            <div class="post-meta-single">
+                   <div class="footer-area bg-black pd-top-95">
+
+<!-- banner area end -->
+                    
+<h3>Cybercrime in Nigeria and around the world</h3>
 
    <p3>In Nigeria, individuals, hackers or connected network of criminals, motivated by financial interest are the major players in the field of cybercrimes. According to the Economic and Financial Crimes Commission (EFCC), a gang of seven hackers, on March 10, 2018, stole 900 million naira from a single bank via malware in Lagos State.</p3>
 
@@ -51,9 +173,39 @@
    <h5>
 
    </h5>
-    <p5></p5>
-        
-    
-    
+    <p5><div>
+        <a class="donate-with-crypto"
+           href="https://commerce.coinbase.com/checkout/46860ec1-97b5-4f94-b6dd-4d223e4bbb8a">
+          Donate with Crypto
+        </a>
+        <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807">
+        </script>
+      </div></p5>
+                 
+
+
+            <div class="footer-bottom text-center">
+                <ul class="widget_nav_menu">
+                    <li>About</a></li>
+                    <li>Terms & Conditions</a></li>
+                    </li>Privacy Policy</a></li>
+                    </li>Contact</a></li>
+                </ul>
+                <p>Copyright ©2021 <a href="https://solverwp.com/">UGoTECHY</a></p>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    </div>
+    <!-- back to top area end -->
+
+    <!-- all plugins here -->
+    <script src="assets/js/vendor.js"></script>
+    <!-- main js  -->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

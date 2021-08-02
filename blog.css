@@ -1,0 +1,37 @@
+h3{
+   font-size: 30px;
+   font-style: initial; 
+   color: white;
+   background-color: black;
+
+}
+h1{
+    font-size: 85px;
+    color: rgb(200, 1, 250);
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p3{
+    font-size: 26px;
+    font-style: initial; 
+    color: white;
+    background-color: rgb(12, 12, 11);
+
+}
+
+h4{
+    font-size: 30px;
+    font-style: initial; 
+    color: white;
+    background-color: black;
+
+}
+
+p4{
+    font-size: 25px;
+    font-style: initial; 
+    color: white;
+    background-color: black;
+
+}
